@@ -8,7 +8,7 @@ const Index = () => {
   return (
     <main className="min-h-screen bg-background text-foreground">
       <HeroSection />
-      <InfoSection />
+      {/* <InfoSection /> */}
       <SolucoesSection />
       <BeneficiosSection />
       <CtaSection />
