@@ -42,7 +42,9 @@ const CtaSection = () => {
             size="lg"
             className="text-lg px-8 py-6 bg-discord hover:bg-discord/90 text-discord-foreground shadow-lg shadow-discord/25"
           >
-            🎧 Entrar no Discord
+            <a href="https://discord.gg/AymnmuJD" target="_blank" rel="noreferrer">
+              🎧 Entrar no Discord
+            </a>
           </Button>
         </motion.div>
       </div>
