@@ -35,11 +35,15 @@ const HeroSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.3 }}
         >
-          <Button size="lg" className="text-lg px-8 py-6 bg-primary hover:bg-primary/90 text-primary-foreground shadow-lg shadow-primary/25">
-            🎮 Sou dono de servidor FiveM
+          <Button asChild size="lg" className="text-lg px-8 py-6 bg-primary hover:bg-primary/90 text-primary-foreground shadow-lg shadow-primary/25">
+            <a href="https://wa.me/message/JRKAVV62SVTXP1" target="_blank" rel="noreferrer">
+              🎮 Sou dono de servidor FiveM
+            </a>
           </Button>
-          <Button size="lg" className="text-lg px-8 py-6 bg-secondary hover:bg-secondary/90 text-secondary-foreground shadow-lg shadow-secondary/25">
-            🎮 Sou dono de servidor MTA
+          <Button asChild size="lg" className="text-lg px-8 py-6 bg-secondary hover:bg-secondary/90 text-secondary-foreground shadow-lg shadow-secondary/25">
+            <a href="https://wa.me/message/JRKAVV62SVTXP1" target="_blank" rel="noreferrer">
+              🎮 Sou dono de servidor MTA
+            </a>
           </Button>
         </motion.div>
       </div>
